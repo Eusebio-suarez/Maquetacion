@@ -88,7 +88,7 @@ button{
     border-radius: 5px;
     font-family: Arial;
     padding: 5px;
-    margin: 30px;
+    margin: 15px;
 }
 
 .back{
@@ -120,4 +120,9 @@ footer{
 
 .img1{
     margin: 5px;
+}
+
+
+a{
+    padding: 2px;
 }
