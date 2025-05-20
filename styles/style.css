@@ -80,6 +80,8 @@ body {
     color: #fff;
     position: absolute;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     top: 30%;
     left: 10%;
     padding: 1rem;
@@ -90,34 +92,61 @@ body {
     margin-bottom: 1rem;
 }
 
-.barra {
-    box-sizing: border-box;
-    background-color: #23272c;
+
+/*suscripcion a boletin*/
+
+.espaciosub{
     display: flex;
+    background-color: #23272c;
+    align-items: center;
+    justify-content: center;
     color: #fff;
-    margin: 0;
-    height: 95px;
+    width: 100%;
+    height: 100px;
 }
 
-.barra h2 {
-    padding-left: 6rem;
-    padding-top: 35px;
+.sub{
+    align-items: center;
+    display: flex;
+    width: 80%;
+    height: 100px;
+    align-items: center;
 }
 
-.barra .email {
-    box-sizing: content-box;
-    background-color: #ffffff;
-    color: #93908f;
-    padding: 35px 40px;
-    padding-left: 23rem;
+.subdere{
+    display: flex;
+    position: absolute;
+    right: 10%;
+    top: 480px;
+    height: 50px;
+    align-items: center;
 }
 
-.barra .subscribirse{
-    box-sizing: border-box;
-    background-color: #e84a1d;
-    padding: 35px 40px;
-    padding-right: 12rem;
+.textosub{
+    display: flex;
+    height: 25px;
 }
+.textocon{
+    height: 25px;
+    width: 100%;
+}
+
+.boton{
+    margin-left: 3PX;
+    background-color: #e64b1d;
+    top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 35px;
+    border: none;
+    color: #fff;
+}
+.boton:hover{
+    background-color: #ac3815;
+    cursor: pointer;
+}
+
+/*fin*/
 
 section {
     display: flex;
@@ -147,4 +176,8 @@ footer {
     padding-top: 30px;
     height: 80px;
     color: #fff;
+}
+.logo{
+    width: 100px;
+    height: 100px;
 }
