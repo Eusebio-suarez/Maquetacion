@@ -57,3 +57,94 @@ a:hover{
     color: #1393d5;
 }
 /*No cambiar los estilos anteriores a este comentario =) */
+
+body {
+    background-color: #f4f4f4;
+}
+
+.imagen {
+    width: 100%;
+    overflow: hidden;
+}
+
+.imagen img {
+    width: 100%;
+	height: 350px;
+	object-fit: cover;
+    object-position: left center;
+    background-position: center;
+}
+
+.texto {
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 10%;
+    padding: 1rem;
+    padding-inline: 20px;
+}
+
+.texto h1 {
+    margin-bottom: 1rem;
+}
+
+.barra {
+    box-sizing: border-box;
+    background-color: #23272c;
+    display: flex;
+    color: #fff;
+    margin: 0;
+    height: 95px;
+}
+
+.barra h2 {
+    padding-left: 6rem;
+    padding-top: 35px;
+}
+
+.barra .email {
+    box-sizing: content-box;
+    background-color: #ffffff;
+    color: #93908f;
+    padding: 35px 40px;
+    padding-left: 23rem;
+}
+
+.barra .subscribirse{
+    box-sizing: border-box;
+    background-color: #e84a1d;
+    padding: 35px 40px;
+    padding-right: 12rem;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 35px;
+    gap: 30px;
+}
+
+section > div {
+    width: 20%;                  
+    background-color: #f2f2f2;   
+    padding: 12px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+section p{
+    padding-top: 14px;
+    font-size: large
+}
+
+footer {
+    box-sizing: border-box;
+    background-color: #1393d5;
+    text-align: center;
+    padding-top: 30px;
+    height: 80px;
+    color: #fff;
+}
