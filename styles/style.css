@@ -74,6 +74,10 @@ a:hover{
     background-position: center;
 }
 
+.texto h1 {
+    margin-bottom: 1rem;
+}
+
 .texto {
     font-size: 20px;
     color: #fff;
@@ -85,10 +89,6 @@ a:hover{
     left: 10%;
     padding: 1rem;
     padding-inline: 20px;
-}
-
-.texto h1 {
-    margin-bottom: 1rem;
 }
 
 

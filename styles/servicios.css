@@ -66,15 +66,20 @@ a:hover{
     height: 95px;
 }
 
-.barra .suscribirse{
-    background-color: #e84a1d;
-    padding: 35px 40px;
-    padding-right: 12rem;
+.sub{
+    background-color: #d84921;
+    width: 100px;
+    text-align: center;
+   color: #fff;
+   
+   
 }
-
+main{
+    display: flex;
+    max-width: 100%;
+}
 .caja1{
-    width: 40%;
-    height: 90%;
+    width: 400px;
     margin-right: 13rem;
     margin-left: 12rem;
     background-color: #d9dde0;
@@ -86,12 +91,11 @@ a:hover{
     padding-top: 2rem;
     padding: 2rem;
     margin-top: 2rem;
-
+  
 }
 
 .caja2 {
-    width: 40%;
-    height: 90%;
+    width: 400px;
     margin-right: 13rem;
     margin-left: 12rem;
     background-color: #d9dde0;
@@ -106,10 +110,9 @@ a:hover{
 }
 
 .caja3 {
-    width: 40%;
-    height: 90%;
+    width: 400px;
     margin-right: 13rem;
-    margin-left: 1rem;
+    margin-left: 12rem;
     background-color: #d9dde0;
     border-color: #b3b6b8;
     border-style: solid;
@@ -124,6 +127,7 @@ a:hover{
 h2 {
     padding-left: 12rem;
     margin-top: 2rem;
+    margin-right: 330px;
 }
 
 h3 {
@@ -134,7 +138,7 @@ h3 {
 aside {
     display: flex;
     flex-direction: column;
-    padding: 20px 20px 20px;
+    padding: 30px;
     width: 230px;
     height: 170px;
     margin-top: 20px;
@@ -159,10 +163,17 @@ footer{
 
 }
 
-.sub{
-    align-items: center;
+
+.container{
+    display : flex;
+    flex-direction: column;
+    
+}
+
+.formContainer{
     display: flex;
-    width: 80%;
-    height: 100px;
-    align-items: center;
+    gap: 10px;
+    margin: 30px;
+    margin-right: 100px;
+
 }
