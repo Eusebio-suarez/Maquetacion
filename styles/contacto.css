@@ -117,6 +117,8 @@ a:hover{
     width: 80%;
     height: 500px;
     margin-top: 10px;
+    display: flex;
+    flex-direction: row;
 }
 
 .cuadros{
@@ -131,7 +133,10 @@ a:hover{
     height: 150px;
     width: 100%;
 }
+
 img{
+    width: 105%;
+    height: 240px; 
     margin-top: 10px;
 }
 .registro_info{
@@ -171,4 +176,113 @@ footer{
     padding: 15px;
     height: 60px; /* igual al padding-bottom del body */
     box-sizing: border-box;
+}
+
+@media screen and (max-width: 550px){
+    a{
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    a{
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 1200px) {
+    nav{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    nav h1{
+        margin-bottom: 15px;
+        margin-left: 0%;
+    }
+
+    .itemsNav{
+        display: flex;
+        margin-right: 0;
+        gap: 10px;
+    }
+    .espaciosub{
+        padding-top: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 8px;
+    }
+    .sub{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .subdere{
+        display: flex;
+        position: static;
+        height: 100px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    .cuadros{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .contacto{
+        margin: 0 auto;
+        width: 80%;
+        height: 500px;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .queH{
+        background: #34424b;
+        padding: 20px 15px;
+        color: #fff;
+        height: 150px;
+        width: 100%;
+    }
+
+    img{
+        width: 100%;
+        height: 250px; 
+        margin-top: 10px;
+        margin-bottom: 100px;
+    }
+    .registro_info{
+        width: 100%;
+    }
+
+    .areaT{
+        width: 100%;
+        height: 175px;
+    }
+    .enviar{
+        margin-top: 10px;
+        width: 100%;
+        height: 35px;
+        background-color: #e64b1d;
+        border: none;
+        color: #fff;
+    }
+    .enviar:hover{
+        background-color: #ac3815;
+        cursor: pointer;
+    }
+
+    input{
+        margin-bottom: 10px;
+    }
+
 }
