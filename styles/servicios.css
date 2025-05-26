@@ -177,3 +177,25 @@ footer{
     margin-right: 100px;
   
 } 
+
+/* Responsive design */
+@media screen and (min-width: 375px) and (max-width: 550px) { 
+    a{
+        font-size: 8px;
+    }
+
+    p{
+        font-size: 12px;
+    }
+
+    /* Menú - iniciar sesion... inicio etc*/
+    .itemsNav{
+        display: flex;
+        margin-right: 6%;
+        gap: 5px;
+    }
+
+    nav{
+        gap: 4px;
+    }
+}
