@@ -8,6 +8,7 @@ body{
     height: 100vh;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+    
 }
 
 
@@ -57,3 +58,108 @@ a:hover{
     color: #1393d5;
 }
 /*No cambiar los estilos anteriores a este comentario =) */
+
+form{
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    border: #1393d5 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+    color: #1393d5;
+    border: 2px solid #23272c;
+    margin-top: 20px;
+    margin-left: 35%;   
+}
+
+
+input{
+    border-radius: 5px;
+    border-color: #1393d5;
+    margin: 10px;
+    padding: 5px;
+}
+
+button{
+    background-color: #1393d5 ;
+    color:  #ffffff;
+    height: 30px;
+    border-radius: 5px;
+    font-family: Arial;
+    padding: 5px;
+    margin: 15px;
+}
+
+.back{
+    border: 2px;
+    background-color: #23272c;
+    border-top: 30px;
+    height: 50%;
+}
+
+hr {
+  border: none;
+  height: 0;
+}
+
+footer{
+    background-color: #1393d5;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    height: 60px; /* igual al padding-bottom del body */
+    box-sizing: border-box;
+    
+}
+
+
+.img1{
+    margin: 5px;
+}
+
+
+a{
+    padding: 2px;
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 750px){
+    nav{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    nav h1{
+        margin-bottom: 15px;
+    }
+
+    .itemsNav{
+        display: flex;
+        margin-right: 0;
+        gap: 10px;
+    }
+
+     a{
+        font-size: 10px;
+    }
+
+    .back{
+    border: 2px;
+    background-color: #23272c;
+    border-top: 30px;
+    width: 200px;
+    height: 30%;
+    position: absolute;
+    left: 50%;
+    margin-left: -100px ;
+}
+}
+
