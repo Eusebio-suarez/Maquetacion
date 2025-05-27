@@ -199,3 +199,70 @@ footer{
         gap: 4px;
     }
 }
+
+/* ==================== RESPONSIVE DESIGN ==================== */
+@media screen and (max-width: 768px) {
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    padding: 1rem;
+  }
+
+  nav h1 {
+    margin-left: 0;
+  }
+
+  .itemsNav {
+    flex-direction: column;
+    margin-right: 0;
+    width: 100%;
+    gap: 0.5rem;
+  }
+
+  main {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .caja1, .caja2, .caja3 {
+    width: 90%;
+    margin: 1rem auto;
+  }
+
+  h2, h3 {
+    padding-left: 1rem;
+    margin-right: 0;
+  }
+
+  aside {
+    width: 90%;
+    margin: 1rem auto;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .formContainer {
+    flex-direction: column;
+    margin: 1rem;
+    margin-right: 1rem;
+  }
+
+  footer {
+    position: static;
+    height: auto;
+    padding: 1rem;
+  }
+}
+
+/* Unifica los estilos repetidos en caja1, caja2, caja3 */
+.caja1, .caja2, .caja3 {
+  width: 400px;
+  margin: 0 auto 1rem auto;
+  background-color: #d9dde0;
+  border: 1px solid #b3b6b8;
+  color: #23272c;
+  padding: 2rem;
+}
